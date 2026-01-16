@@ -35,6 +35,10 @@ Progress: [          ] 0%
 
 ## Idees d'implementation
 
+> **IMPORTANT - Chakra UI v3**
+> Ce guide utilise Chakra UI v3 (installe par defaut en 2026).
+> L'API a change depuis v2: `extendTheme` -> `createSystem` + `defineConfig`
+
 ### 1. Creer le projet
 
 ```bash
@@ -44,62 +48,60 @@ cd meta-landing
 npm install
 ```
 
-### 2. Installer Chakra UI
+### 2. Installer Chakra UI v3
 
 ```bash
 npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion
 ```
 
-### 3. Configurer le theme
+### 3. Configurer le theme (CHAKRA V3)
 
 **Creer `src/theme.js`:**
 ```javascript
-import { extendTheme } from '@chakra-ui/react'
+import { createSystem, defaultConfig, defineConfig } from '@chakra-ui/react'
 
-const theme = extendTheme({
-  colors: {
-    brand: {
-      50: '#f7f7f7',
-      100: '#e3e3e3',
-      500: '#1a1a1a',
-      900: '#0a0a0a',
-    },
-    accent: '#2563eb',
-  },
-  fonts: {
-    heading: '"Inter", system-ui, sans-serif',
-    body: '"Inter", system-ui, sans-serif',
-  },
-  styles: {
-    global: {
-      body: {
-        bg: 'white',
-        color: 'brand.900',
+const config = defineConfig({
+  theme: {
+    tokens: {
+      colors: {
+        brand: {
+          50: { value: '#f7f7f7' },
+          100: { value: '#e3e3e3' },
+          500: { value: '#1a1a1a' },
+          900: { value: '#0a0a0a' },
+        },
+        accent: { value: '#2563eb' },
+      },
+      fonts: {
+        heading: { value: '"Inter", system-ui, sans-serif' },
+        body: { value: '"Inter", system-ui, sans-serif' },
       },
     },
   },
 })
 
-export default theme
+export const system = createSystem(defaultConfig, config)
 ```
 
-### 4. Configurer main.jsx
+### 4. Configurer main.jsx (CHAKRA V3)
 
 ```jsx
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
 import { ChakraProvider } from '@chakra-ui/react'
 import App from './App.jsx'
-import theme from './theme'
+import { system } from './theme'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <ChakraProvider theme={theme}>
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <ChakraProvider value={system}>
       <App />
     </ChakraProvider>
-  </React.StrictMode>,
+  </StrictMode>,
 )
 ```
+
+> **Note:** En v3, on passe `value={system}` au lieu de `theme={theme}`
 
 ### 5. Nettoyer App.jsx
 

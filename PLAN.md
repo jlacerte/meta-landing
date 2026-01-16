@@ -9,21 +9,21 @@
 ```
 PROGRESSION TOTALE
 ==================
-[          ] 0%
+[████████░░] 80%
 
-Phase 1: Setup      [          ] [ ]
-Phase 2: Structure  [          ] [ ]
-Phase 3: Contenu    [          ] [ ]
-Phase 4: Design     [          ] [ ]
-Phase 5: Deploy     [          ] [ ]
+Phase 1: Setup      [██████████] [X]
+Phase 2: Structure  [██████████] [X]
+Phase 3: Contenu    [██████████] [X]
+Phase 4: Design     [██████████] [X]
+Phase 5: Deploy     [          ] [ ] <- EN COURS
 ```
 
 | Phase | Plan | Status | Temps | Objectif principal |
 |-------|------|--------|-------|-------------------|
-| 1 | [PHASE1-SETUP.md](./PHASE1-SETUP.md) | [ ] | 5 min | Dev server running |
-| 2 | [PHASE2-STRUCTURE.md](./PHASE2-STRUCTURE.md) | [ ] | 10 min | Layout complet |
-| 3 | [PHASE3-CONTENU.md](./PHASE3-CONTENU.md) | [ ] | 15 min | Textes finaux |
-| 4 | [PHASE4-DESIGN.md](./PHASE4-DESIGN.md) | [ ] | 20 min | Polish pro |
+| 1 | [PHASE1-SETUP.md](./PHASE1-SETUP.md) | [X] | 5 min | Dev server running |
+| 2 | [PHASE2-STRUCTURE.md](./PHASE2-STRUCTURE.md) | [X] | 10 min | Layout complet |
+| 3 | [PHASE3-CONTENU.md](./PHASE3-CONTENU.md) | [X] | 15 min | Textes finaux |
+| 4 | [PHASE4-DESIGN.md](./PHASE4-DESIGN.md) | [X] | 20 min | Polish pro |
 | 5 | [PHASE5-DEPLOY.md](./PHASE5-DEPLOY.md) | [ ] | 10 min | URL live |
 
 **Total:** 60 minutes (mode hackathon)
@@ -44,22 +44,23 @@ Phase 5: Deploy     [          ] [ ]
 
 ```
 PHASE 1 - SETUP
-[ ] npm run dev fonctionne
-[ ] Chakra UI installe
+[X] npm run dev fonctionne
+[X] Chakra UI installe
 
 PHASE 2 - STRUCTURE
-[ ] Header + Hero
-[ ] 3 sections
-[ ] Footer
+[X] Header + Hero
+[X] 3 sections
+[X] Footer
 
 PHASE 3 - CONTENU
-[ ] Setup section complete
-[ ] Process section complete
-[ ] Strategy section complete
+[X] Setup section complete
+[X] Process section complete
+[X] Strategy section complete
 
 PHASE 4 - DESIGN
-[ ] Responsive mobile
-[ ] Lighthouse > 90
+[X] Responsive mobile
+[X] Smooth scroll + hover states
+[X] Hero fade-in animation
 
 PHASE 5 - DEPLOY
 [ ] Build success
@@ -274,29 +275,39 @@ src/
 ### Stack finale
 ```
 React + Vite
-Chakra UI (composants + theming)
+Chakra UI v3 (API: createSystem + defineConfig)
 Theme: light, minimaliste
 Deploy: Netlify
 ```
 
-### Palette minimaliste
+> **Note Chakra v3:** L'API a change depuis v2.
+> - `extendTheme` -> `createSystem` + `defineConfig`
+> - `spacing` -> `gap` (sur VStack, HStack, etc.)
+> - `<ChakraProvider theme={}>` -> `<ChakraProvider value={}>`
+
+### Palette minimaliste (Chakra v3)
 ```javascript
-// Theme Chakra custom
-const theme = extendTheme({
-  colors: {
-    brand: {
-      50: '#f7f7f7',
-      100: '#e3e3e3',
-      500: '#1a1a1a',
-      900: '#0a0a0a',
+// Theme Chakra v3
+const config = defineConfig({
+  theme: {
+    tokens: {
+      colors: {
+        brand: {
+          50: { value: '#f7f7f7' },
+          100: { value: '#e3e3e3' },
+          500: { value: '#1a1a1a' },
+          900: { value: '#0a0a0a' },
+        },
+        accent: { value: '#2563eb' }, // Bleu vif pour CTAs
+      },
+      fonts: {
+        heading: { value: '"Inter", system-ui, sans-serif' },
+        body: { value: '"Inter", system-ui, sans-serif' },
+      },
     },
-    accent: '#2563eb', // Bleu vif pour CTAs
-  },
-  fonts: {
-    heading: '"Inter", system-ui, sans-serif',
-    body: '"Inter", system-ui, sans-serif',
   },
 })
+export const system = createSystem(defaultConfig, config)
 ```
 
 ### Sections de la landing page

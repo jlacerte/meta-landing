@@ -40,6 +40,11 @@ Progress: [##        ] 20%
 
 ## Idees d'implementation
 
+> **CHAKRA UI v3 - Changements de syntaxe:**
+> - `spacing` -> `gap` (sur VStack, HStack, Stack, SimpleGrid)
+> - `borderBottom="1px solid"` -> `borderBottom="1px solid"`
+> - Les props responsive restent: `{{ base: 'value', md: 'value' }}`
+
 ### Structure des fichiers
 
 ```
@@ -65,12 +70,12 @@ import { Box, Flex, Heading, HStack, Link } from '@chakra-ui/react'
 
 function Header() {
   return (
-    <Box as="header" py={4} px={8} borderBottom="1px" borderColor="brand.100">
+    <Box as="header" py={4} px={8} borderBottom="1px solid" borderColor="brand.100">
       <Flex justify="space-between" align="center" maxW="1200px" mx="auto">
         <Heading size="md" fontWeight="bold">
           Meta Landing
         </Heading>
-        <HStack spacing={8}>
+        <HStack gap={8}>
           <Link href="#setup" fontWeight="medium">Setup</Link>
           <Link href="#process" fontWeight="medium">Process</Link>
           <Link href="#strategy" fontWeight="medium">Strategy</Link>
@@ -92,7 +97,7 @@ function Hero() {
   return (
     <Box py={20} textAlign="center">
       <Container maxW="800px">
-        <VStack spacing={6}>
+        <VStack gap={6}>
           <Heading as="h1" size="2xl" fontWeight="bold" lineHeight="1.2">
             Comment je build des frontends avec l'AI
           </Heading>
@@ -117,8 +122,8 @@ function Section({ id, title, subtitle, children }) {
   return (
     <Box as="section" id={id} py={16} borderTop="1px" borderColor="brand.100">
       <Container maxW="900px">
-        <VStack spacing={8} align="stretch">
-          <VStack spacing={2} align="start">
+        <VStack gap={8} align="stretch">
+          <VStack gap={2} align="start">
             <Heading as="h2" size="xl" fontWeight="bold">
               {title}
             </Heading>

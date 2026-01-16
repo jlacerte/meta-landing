@@ -39,63 +39,55 @@ Progress: [######    ] 60%
 
 ## Idees d'implementation
 
+> **CHAKRA UI v3** - Theme avec `createSystem` + `defineConfig`
+
 ### Typographie - Theme update
 
 ```javascript
-// theme.js - mise a jour
-import { extendTheme } from '@chakra-ui/react'
+// theme.js - mise a jour pour Chakra v3
+import { createSystem, defaultConfig, defineConfig } from '@chakra-ui/react'
 
-const theme = extendTheme({
-  colors: {
-    brand: {
-      50: '#f7f7f7',
-      100: '#e3e3e3',
-      500: '#1a1a1a',
-      900: '#0a0a0a',
-    },
-    accent: '#2563eb',
-  },
-  fonts: {
-    heading: '"Inter", system-ui, sans-serif',
-    body: '"Inter", system-ui, sans-serif',
-  },
-  fontSizes: {
-    xs: '0.75rem',
-    sm: '0.875rem',
-    md: '1rem',
-    lg: '1.125rem',
-    xl: '1.25rem',
-    '2xl': '1.5rem',
-    '3xl': '2rem',
-    '4xl': '2.5rem',
-    '5xl': '3.5rem',
-  },
-  styles: {
-    global: {
-      html: {
-        scrollBehavior: 'smooth',
-      },
-      body: {
-        bg: 'white',
-        color: 'brand.900',
-      },
+const config = defineConfig({
+  globalCss: {
+    html: {
+      scrollBehavior: 'smooth',
     },
   },
-  components: {
-    Link: {
-      baseStyle: {
-        _hover: {
-          textDecoration: 'none',
-          color: 'accent',
+  theme: {
+    tokens: {
+      colors: {
+        brand: {
+          50: { value: '#f7f7f7' },
+          100: { value: '#e3e3e3' },
+          500: { value: '#1a1a1a' },
+          900: { value: '#0a0a0a' },
         },
-        transition: 'color 0.2s',
+        accent: { value: '#2563eb' },
+      },
+      fonts: {
+        heading: { value: '"Inter", system-ui, sans-serif' },
+        body: { value: '"Inter", system-ui, sans-serif' },
+      },
+      fontSizes: {
+        xs: { value: '0.75rem' },
+        sm: { value: '0.875rem' },
+        md: { value: '1rem' },
+        lg: { value: '1.125rem' },
+        xl: { value: '1.25rem' },
+        '2xl': { value: '1.5rem' },
+        '3xl': { value: '2rem' },
+        '4xl': { value: '2.5rem' },
+        '5xl': { value: '3.5rem' },
       },
     },
   },
 })
 
-export default theme
+export const system = createSystem(defaultConfig, config)
 ```
+
+> **Note v3:** Les global styles et component styles se font differemment.
+> Pour le scroll smooth, on utilise `globalCss` dans `defineConfig`.
 
 ### Ajouter Inter font
 
@@ -165,7 +157,7 @@ function Hero() {
     <Box py={{ base: 16, md: 24 }} textAlign="center">
       <Container maxW="800px">
         <MotionVStack
-          spacing={6}
+          gap={6}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -251,7 +243,7 @@ function MobileMenu() {
         <DrawerOverlay />
         <DrawerContent>
           <DrawerBody pt={12}>
-            <VStack spacing={6} align="start">
+            <VStack gap={6} align="start">
               <Link href="#setup" onClick={onClose}>Setup</Link>
               <Link href="#process" onClick={onClose}>Process</Link>
               <Link href="#strategy" onClick={onClose}>Strategy</Link>

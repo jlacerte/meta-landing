@@ -1,0 +1,226 @@
+{"location":"theme.js:3","message":"Theme config definition start","data":{"configDefined":true},"timestamp":1768585377482,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:23","message":"Creating system with config","data":{"configExists":true,"defaultConfigExists":true},"timestamp":1768585377483,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:25","message":"System created","data":{"systemExists":true,"systemType":"object","systemKeys":["$$chakra","_config","_global","breakpoints","tokens"]},"timestamp":1768585377506,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:3","message":"Theme config definition start","data":{"configDefined":true},"timestamp":1768585384014,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:23","message":"Creating system with config","data":{"configExists":true,"defaultConfigExists":true},"timestamp":1768585384015,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:25","message":"System created","data":{"systemExists":true,"systemType":"object","systemKeys":["$$chakra","_config","_global","breakpoints","tokens"]},"timestamp":1768585384038,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.jsx:7","message":"Main entry point","data":{"systemImported":true,"systemType":"object","ChakraProviderExists":true,"AppExists":true},"timestamp":1768585384039,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:12","message":"Root element check","data":{"rootExists":true,"rootId":"root","rootTagName":"DIV"},"timestamp":1768585384039,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"main.jsx:19","message":"After createRoot","data":{"rootCreated":true,"systemValue":"exists"},"timestamp":1768585384040,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:15","message":"Before createRoot","data":{"rootElementExists":true},"timestamp":1768585384039,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"main.jsx:22","message":"Before render","data":{"systemExists":true},"timestamp":1768585384041,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:30","message":"After render call","data":{"renderCalled":true},"timestamp":1768585384041,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"App.jsx:13","message":"After imports","data":{"HeaderExists":true,"HeroExists":true,"FooterExists":true,"SetupSectionExists":true,"ProcessSectionExists":true,"StrategySectionExists":true,"BoxExists":true},"timestamp":1768585416557,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585416575,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585416576,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585416576,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585416576,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:13","message":"After imports","data":{"HeaderExists":true,"HeroExists":true,"FooterExists":true,"SetupSectionExists":true,"ProcessSectionExists":true,"StrategySectionExists":true,"BoxExists":true},"timestamp":1768585430863,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"theme.js:3","message":"Theme config definition start","data":{"configDefined":true},"timestamp":1768585430864,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:23","message":"Creating system with config","data":{"configExists":true,"defaultConfigExists":true},"timestamp":1768585430864,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:25","message":"System created","data":{"systemExists":true,"systemType":"object","systemKeys":["$$chakra","_config","_global","breakpoints","tokens"]},"timestamp":1768585430883,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.jsx:7","message":"Main entry point","data":{"systemImported":true,"systemType":"object","ChakraProviderExists":true,"AppExists":true},"timestamp":1768585430883,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:12","message":"Root element check","data":{"rootExists":true,"rootId":"root","rootTagName":"DIV"},"timestamp":1768585430883,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"main.jsx:15","message":"Before createRoot","data":{"rootElementExists":true},"timestamp":1768585430883,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"main.jsx:19","message":"After createRoot","data":{"rootCreated":true,"systemValue":"exists"},"timestamp":1768585430884,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:22","message":"Before render","data":{"systemExists":true},"timestamp":1768585430884,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:30","message":"After render call","data":{"renderCalled":true},"timestamp":1768585430885,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585430899,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585430899,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585430899,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585430900,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:13","message":"After imports","data":{"HeaderExists":true,"HeroExists":true,"FooterExists":true,"SetupSectionExists":true,"ProcessSectionExists":true,"StrategySectionExists":true,"BoxExists":true},"timestamp":1768585431018,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"theme.js:23","message":"Creating system with config","data":{"configExists":true,"defaultConfigExists":true},"timestamp":1768585431019,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:3","message":"Theme config definition start","data":{"configDefined":true},"timestamp":1768585431018,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:25","message":"System created","data":{"systemExists":true,"systemType":"object","systemKeys":["$$chakra","_config","_global","breakpoints","tokens"]},"timestamp":1768585431038,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.jsx:7","message":"Main entry point","data":{"systemImported":true,"systemType":"object","ChakraProviderExists":true,"AppExists":true},"timestamp":1768585431038,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:12","message":"Root element check","data":{"rootExists":true,"rootId":"root","rootTagName":"DIV"},"timestamp":1768585431038,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"main.jsx:15","message":"Before createRoot","data":{"rootElementExists":true},"timestamp":1768585431038,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"main.jsx:19","message":"After createRoot","data":{"rootCreated":true,"systemValue":"exists"},"timestamp":1768585431039,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:22","message":"Before render","data":{"systemExists":true},"timestamp":1768585431039,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:30","message":"After render call","data":{"renderCalled":true},"timestamp":1768585431039,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585431066,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585431065,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585431066,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585431066,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:13","message":"After imports","data":{"HeaderExists":true,"HeroExists":true,"FooterExists":true,"SetupSectionExists":true,"ProcessSectionExists":true,"StrategySectionExists":true,"BoxExists":true},"timestamp":1768585431386,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"theme.js:3","message":"Theme config definition start","data":{"configDefined":true},"timestamp":1768585431386,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:23","message":"Creating system with config","data":{"configExists":true,"defaultConfigExists":true},"timestamp":1768585431386,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:25","message":"System created","data":{"systemExists":true,"systemType":"object","systemKeys":["$$chakra","_config","_global","breakpoints","tokens"]},"timestamp":1768585431404,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.jsx:7","message":"Main entry point","data":{"systemImported":true,"systemType":"object","ChakraProviderExists":true,"AppExists":true},"timestamp":1768585431405,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:12","message":"Root element check","data":{"rootExists":true,"rootId":"root","rootTagName":"DIV"},"timestamp":1768585431405,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"main.jsx:15","message":"Before createRoot","data":{"rootElementExists":true},"timestamp":1768585431405,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"main.jsx:19","message":"After createRoot","data":{"rootCreated":true,"systemValue":"exists"},"timestamp":1768585431405,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:22","message":"Before render","data":{"systemExists":true},"timestamp":1768585431406,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:30","message":"After render call","data":{"renderCalled":true},"timestamp":1768585431406,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585431410,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585431410,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585431410,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585431411,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:13","message":"After imports","data":{"HeaderExists":true,"HeroExists":true,"FooterExists":true,"SetupSectionExists":true,"ProcessSectionExists":true,"StrategySectionExists":true,"BoxExists":true},"timestamp":1768585435517,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585435534,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585435535,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585435535,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585435535,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:13","message":"After imports","data":{"HeaderExists":true,"HeroExists":true,"FooterExists":true,"SetupSectionExists":true,"ProcessSectionExists":true,"StrategySectionExists":true,"BoxExists":true},"timestamp":1768585435696,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"theme.js:3","message":"Theme config definition start","data":{"configDefined":true},"timestamp":1768585435697,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:23","message":"Creating system with config","data":{"configExists":true,"defaultConfigExists":true},"timestamp":1768585435697,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:25","message":"System created","data":{"systemExists":true,"systemType":"object","systemKeys":["$$chakra","_config","_global","breakpoints","tokens"]},"timestamp":1768585435727,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.jsx:7","message":"Main entry point","data":{"systemImported":true,"systemType":"object","ChakraProviderExists":true,"AppExists":true},"timestamp":1768585435729,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:12","message":"Root element check","data":{"rootExists":true,"rootId":"root","rootTagName":"DIV"},"timestamp":1768585435729,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"main.jsx:15","message":"Before createRoot","data":{"rootElementExists":true},"timestamp":1768585435730,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"main.jsx:19","message":"After createRoot","data":{"rootCreated":true,"systemValue":"exists"},"timestamp":1768585435731,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:22","message":"Before render","data":{"systemExists":true},"timestamp":1768585435731,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:30","message":"After render call","data":{"renderCalled":true},"timestamp":1768585435732,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585435738,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585435739,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585435739,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585435740,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:13","message":"After imports","data":{"HeaderExists":true,"HeroExists":true,"FooterExists":true,"SetupSectionExists":true,"ProcessSectionExists":true,"StrategySectionExists":true,"BoxExists":true},"timestamp":1768585435770,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"theme.js:3","message":"Theme config definition start","data":{"configDefined":true},"timestamp":1768585435771,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:23","message":"Creating system with config","data":{"configExists":true,"defaultConfigExists":true},"timestamp":1768585435771,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:25","message":"System created","data":{"systemExists":true,"systemType":"object","systemKeys":["$$chakra","_config","_global","breakpoints","tokens"]},"timestamp":1768585435802,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.jsx:7","message":"Main entry point","data":{"systemImported":true,"systemType":"object","ChakraProviderExists":true,"AppExists":true},"timestamp":1768585435802,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:12","message":"Root element check","data":{"rootExists":true,"rootId":"root","rootTagName":"DIV"},"timestamp":1768585435803,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"main.jsx:15","message":"Before createRoot","data":{"rootElementExists":true},"timestamp":1768585435803,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"main.jsx:19","message":"After createRoot","data":{"rootCreated":true,"systemValue":"exists"},"timestamp":1768585435804,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:22","message":"Before render","data":{"systemExists":true},"timestamp":1768585435804,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:30","message":"After render call","data":{"renderCalled":true},"timestamp":1768585435805,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585435813,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585435814,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585435814,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585435815,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:13","message":"After imports","data":{"HeaderExists":true,"HeroExists":true,"FooterExists":true,"SetupSectionExists":true,"ProcessSectionExists":true,"StrategySectionExists":true,"BoxExists":true},"timestamp":1768585476188,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"theme.js:3","message":"Theme config definition start","data":{"configDefined":true},"timestamp":1768585476189,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:23","message":"Creating system with config","data":{"configExists":true,"defaultConfigExists":true},"timestamp":1768585476189,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:25","message":"System created","data":{"systemExists":true,"systemType":"object","systemKeys":["$$chakra","_config","_global","breakpoints","tokens"]},"timestamp":1768585476221,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.jsx:7","message":"Main entry point","data":{"systemImported":true,"systemType":"object","ChakraProviderExists":true,"AppExists":true},"timestamp":1768585476222,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:12","message":"Root element check","data":{"rootExists":true,"rootId":"root","rootTagName":"DIV"},"timestamp":1768585476222,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"main.jsx:15","message":"Before createRoot","data":{"rootElementExists":true},"timestamp":1768585476222,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"main.jsx:19","message":"After createRoot","data":{"rootCreated":true,"systemValue":"exists"},"timestamp":1768585476223,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"App.jsx:13","message":"After imports","data":{"HeaderExists":true,"HeroExists":true,"FooterExists":true,"SetupSectionExists":true,"ProcessSectionExists":true,"StrategySectionExists":true,"BoxExists":true},"timestamp":1768585476219,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"main.jsx:22","message":"Before render","data":{"systemExists":true},"timestamp":1768585476223,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:32","message":"Render completed successfully","data":{"renderSuccess":true},"timestamp":1768585476223,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"theme.js:3","message":"Theme config definition start","data":{"configDefined":true},"timestamp":1768585476219,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:23","message":"Creating system with config","data":{"configExists":true,"defaultConfigExists":true},"timestamp":1768585476220,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.jsx:30","message":"After render call","data":{"renderCalled":true},"timestamp":1768585476223,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585476228,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585476228,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585476234,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585476238,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"theme.js:25","message":"System created","data":{"systemExists":true,"systemType":"object","systemKeys":["$$chakra","_config","_global","breakpoints","tokens"]},"timestamp":1768585476252,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.jsx:7","message":"Main entry point","data":{"systemImported":true,"systemType":"object","ChakraProviderExists":true,"AppExists":true},"timestamp":1768585476252,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:12","message":"Root element check","data":{"rootExists":true,"rootId":"root","rootTagName":"DIV"},"timestamp":1768585476253,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"main.jsx:15","message":"Before createRoot","data":{"rootElementExists":true},"timestamp":1768585476253,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"main.jsx:19","message":"After createRoot","data":{"rootCreated":true,"systemValue":"exists"},"timestamp":1768585476253,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:22","message":"Before render","data":{"systemExists":true},"timestamp":1768585476254,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:32","message":"Render completed successfully","data":{"renderSuccess":true},"timestamp":1768585476254,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"main.jsx:30","message":"After render call","data":{"renderCalled":true},"timestamp":1768585476254,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585476258,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585476259,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585476259,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585476259,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:13","message":"After imports","data":{"HeaderExists":true,"HeroExists":true,"FooterExists":true,"SetupSectionExists":true,"ProcessSectionExists":true,"StrategySectionExists":true,"BoxExists":true},"timestamp":1768585479502,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"App.jsx:13","message":"After imports","data":{"HeaderExists":true,"HeroExists":true,"FooterExists":true,"SetupSectionExists":true,"ProcessSectionExists":true,"StrategySectionExists":true,"BoxExists":true},"timestamp":1768585479506,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585479521,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:35","message":"JSX created successfully","data":{"jsxCreated":true},"timestamp":1768585479522,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:49","message":"App render succeeded","data":{"hasError":false},"timestamp":1768585479522,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585479522,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585479523,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:35","message":"JSX created successfully","data":{"jsxCreated":true},"timestamp":1768585479523,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585479521,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:49","message":"App render succeeded","data":{"hasError":false},"timestamp":1768585479523,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585479524,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585479526,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:35","message":"JSX created successfully","data":{"jsxCreated":true},"timestamp":1768585479526,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:49","message":"App render succeeded","data":{"hasError":false},"timestamp":1768585479527,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585479527,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585479527,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:35","message":"JSX created successfully","data":{"jsxCreated":true},"timestamp":1768585479527,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:49","message":"App render succeeded","data":{"hasError":false},"timestamp":1768585479527,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:13","message":"After imports","data":{"HeaderExists":true,"HeroExists":true,"FooterExists":true,"SetupSectionExists":true,"ProcessSectionExists":true,"StrategySectionExists":true,"BoxExists":true,"useChakraContextExists":true},"timestamp":1768585506638,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"App.jsx:13","message":"After imports","data":{"HeaderExists":true,"HeroExists":true,"FooterExists":true,"SetupSectionExists":true,"ProcessSectionExists":true,"StrategySectionExists":true,"BoxExists":true,"useChakraContextExists":true},"timestamp":1768585506642,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585506658,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585506661,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585506658,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:35","message":"JSX created successfully","data":{"jsxCreated":true},"timestamp":1768585506661,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585506661,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:35","message":"JSX created successfully","data":{"jsxCreated":true},"timestamp":1768585506659,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:49","message":"App render succeeded","data":{"hasError":false},"timestamp":1768585506659,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:49","message":"App render succeeded","data":{"hasError":false},"timestamp":1768585506662,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585506662,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585506659,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:18","message":"App function called","data":{"BoxExists":true},"timestamp":1768585506659,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:35","message":"JSX created successfully","data":{"jsxCreated":true},"timestamp":1768585506659,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:49","message":"App render succeeded","data":{"hasError":false},"timestamp":1768585506660,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585506662,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:35","message":"JSX created successfully","data":{"jsxCreated":true},"timestamp":1768585506662,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:49","message":"App render succeeded","data":{"hasError":false},"timestamp":1768585506662,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:13","message":"After imports","data":{"HeaderExists":true,"HeroExists":true,"FooterExists":true,"SetupSectionExists":true,"ProcessSectionExists":true,"StrategySectionExists":true,"BoxExists":true,"useChakraContextExists":true},"timestamp":1768585509247,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"App.jsx:13","message":"After imports","data":{"HeaderExists":true,"HeroExists":true,"FooterExists":true,"SetupSectionExists":true,"ProcessSectionExists":true,"StrategySectionExists":true,"BoxExists":true,"useChakraContextExists":true},"timestamp":1768585509249,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"App.jsx:20","message":"App function called","data":{"BoxExists":true},"timestamp":1768585509265,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:31","message":"Before return JSX","data":{"componentsReady":true,"chakraContextAvailable":true},"timestamp":1768585509266,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:25","message":"Chakra context accessed","data":{"contextExists":true,"contextType":"object"},"timestamp":1768585509266,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"App.jsx:49","message":"App render succeeded","data":{"hasError":false},"timestamp":1768585509266,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:20","message":"App function called","data":{"BoxExists":true},"timestamp":1768585509266,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:20","message":"App function called","data":{"BoxExists":true},"timestamp":1768585509268,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:35","message":"JSX created successfully","data":{"jsxCreated":true},"timestamp":1768585509266,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:25","message":"Chakra context accessed","data":{"contextExists":true,"contextType":"object"},"timestamp":1768585509270,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"App.jsx:31","message":"Before return JSX","data":{"componentsReady":true,"chakraContextAvailable":true},"timestamp":1768585509271,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:35","message":"JSX created successfully","data":{"jsxCreated":true},"timestamp":1768585509271,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:25","message":"Chakra context accessed","data":{"contextExists":true,"contextType":"object"},"timestamp":1768585509267,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"App.jsx:20","message":"App function called","data":{"BoxExists":true},"timestamp":1768585509272,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:49","message":"App render succeeded","data":{"hasError":false},"timestamp":1768585509271,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:31","message":"Before return JSX","data":{"componentsReady":true,"chakraContextAvailable":true},"timestamp":1768585509267,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:35","message":"JSX created successfully","data":{"jsxCreated":true},"timestamp":1768585509267,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:49","message":"App render succeeded","data":{"hasError":false},"timestamp":1768585509267,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:25","message":"Chakra context accessed","data":{"contextExists":true,"contextType":"object"},"timestamp":1768585509272,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"App.jsx:31","message":"Before return JSX","data":{"componentsReady":true,"chakraContextAvailable":true},"timestamp":1768585509272,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:35","message":"JSX created successfully","data":{"jsxCreated":true},"timestamp":1768585509273,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:49","message":"App render succeeded","data":{"hasError":false},"timestamp":1768585509274,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:13","message":"After imports","data":{"HeaderExists":true,"HeroExists":true,"FooterExists":true,"SetupSectionExists":true,"ProcessSectionExists":true,"StrategySectionExists":true,"BoxExists":true},"timestamp":1768585766060,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"theme.js:23","message":"Creating system with config","data":{"configExists":true,"defaultConfigExists":true},"timestamp":1768585766061,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:3","message":"Theme config definition start","data":{"configDefined":true},"timestamp":1768585766061,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:25","message":"System created","data":{"systemExists":true,"systemType":"object","systemKeys":["$$chakra","_config","_global","breakpoints","tokens"]},"timestamp":1768585766088,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.jsx:7","message":"Main entry point","data":{"systemImported":true,"systemType":"object","ChakraProviderExists":true,"AppExists":true},"timestamp":1768585766088,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:12","message":"Root element check","data":{"rootExists":true,"rootId":"root","rootTagName":"DIV"},"timestamp":1768585766089,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"main.jsx:15","message":"Before createRoot","data":{"rootElementExists":true},"timestamp":1768585766089,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"main.jsx:19","message":"After createRoot","data":{"rootCreated":true,"systemValue":"exists"},"timestamp":1768585766090,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:22","message":"Before render","data":{"systemExists":true},"timestamp":1768585766090,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:32","message":"Render completed successfully","data":{"renderSuccess":true},"timestamp":1768585766092,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"main.jsx:30","message":"After render call","data":{"renderCalled":true},"timestamp":1768585766093,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"App.jsx:19","message":"App function called","data":{"BoxExists":true},"timestamp":1768585766105,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585766106,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:28","message":"Starting component render","data":{"timestamp":1768585766106},"timestamp":1768585766106,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:32","message":"Rendering Header component","data":{"HeaderType":"function"},"timestamp":1768585766106,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:36","message":"Rendering Hero component","data":{"HeroType":"function"},"timestamp":1768585766107,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:48","message":"JSX created successfully","data":{"jsxCreated":true},"timestamp":1768585766107,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585766107,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:19","message":"App function called","data":{"BoxExists":true},"timestamp":1768585766107,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:28","message":"Starting component render","data":{"timestamp":1768585766108},"timestamp":1768585766108,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:32","message":"Rendering Header component","data":{"HeaderType":"function"},"timestamp":1768585766108,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:36","message":"Rendering Hero component","data":{"HeroType":"function"},"timestamp":1768585766108,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:48","message":"JSX created successfully","data":{"jsxCreated":true},"timestamp":1768585766108,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:13","message":"After imports","data":{"HeaderExists":true,"HeroExists":true,"FooterExists":true,"SetupSectionExists":true,"ProcessSectionExists":true,"StrategySectionExists":true,"BoxExists":true},"timestamp":1768585871496,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"theme.js:3","message":"Theme config definition start","data":{"configDefined":true},"timestamp":1768585871497,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:23","message":"Creating system with config","data":{"configExists":true,"defaultConfigExists":true},"timestamp":1768585871497,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"theme.js:25","message":"System created","data":{"systemExists":true,"systemType":"object","systemKeys":["$$chakra","_config","_global","breakpoints","tokens"]},"timestamp":1768585871523,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"main.jsx:7","message":"Main entry point","data":{"systemImported":true,"systemType":"object","ChakraProviderExists":true,"AppExists":true},"timestamp":1768585871523,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:12","message":"Root element check","data":{"rootExists":true,"rootId":"root","rootTagName":"DIV"},"timestamp":1768585871523,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"main.jsx:15","message":"Before createRoot","data":{"rootElementExists":true},"timestamp":1768585871524,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"main.jsx:19","message":"After createRoot","data":{"rootCreated":true,"systemValue":"exists"},"timestamp":1768585871524,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:22","message":"Before render","data":{"systemExists":true},"timestamp":1768585871525,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"main.jsx:32","message":"Render completed successfully","data":{"renderSuccess":true},"timestamp":1768585871526,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"main.jsx:30","message":"After render call","data":{"renderCalled":true},"timestamp":1768585871526,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"App.jsx:19","message":"App function called","data":{"BoxExists":true},"timestamp":1768585871536,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585871536,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:28","message":"Starting component render","data":{"timestamp":1768585871536},"timestamp":1768585871536,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:32","message":"Rendering Header component","data":{"HeaderType":"function"},"timestamp":1768585871537,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:36","message":"Rendering Hero component","data":{"HeroType":"function"},"timestamp":1768585871537,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:48","message":"JSX created successfully","data":{"jsxCreated":true},"timestamp":1768585871537,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:19","message":"App function called","data":{"BoxExists":true},"timestamp":1768585871537,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:22","message":"Before return JSX","data":{"componentsReady":true},"timestamp":1768585871538,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:28","message":"Starting component render","data":{"timestamp":1768585871538},"timestamp":1768585871538,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:32","message":"Rendering Header component","data":{"HeaderType":"function"},"timestamp":1768585871538,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:36","message":"Rendering Hero component","data":{"HeroType":"function"},"timestamp":1768585871538,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"App.jsx:48","message":"JSX created successfully","data":{"jsxCreated":true},"timestamp":1768585871538,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
