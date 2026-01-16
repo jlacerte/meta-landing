@@ -1,20 +1,71 @@
 # Mini Hackathon - Meta Landing Page
 
-> *Le feu crépite. On construit ensemble.*
+> *Le feu crepite. On construit ensemble.*
 
 ---
 
-## Dashboard
+## Dashboard Global
 
-| Phase | Status | Objectif | Tests |
-|-------|--------|----------|-------|
-| 1. Setup | [ ] | Environnement React + Vite | `npm run dev` fonctionne |
-| 2. Structure | [ ] | Layout + sections de base | Navigation visible |
-| 3. Contenu | [ ] | Textes + storytelling | 3 sections complètes |
-| 4. Design | [ ] | Visual polish | Mobile + Desktop OK |
-| 5. Deploy | [ ] | URL live | Accessible publiquement |
+```
+PROGRESSION TOTALE
+==================
+[          ] 0%
 
-**Progression:** 0/5 phases complétées
+Phase 1: Setup      [          ] [ ]
+Phase 2: Structure  [          ] [ ]
+Phase 3: Contenu    [          ] [ ]
+Phase 4: Design     [          ] [ ]
+Phase 5: Deploy     [          ] [ ]
+```
+
+| Phase | Plan | Status | Temps | Objectif principal |
+|-------|------|--------|-------|-------------------|
+| 1 | [PHASE1-SETUP.md](./PHASE1-SETUP.md) | [ ] | 5 min | Dev server running |
+| 2 | [PHASE2-STRUCTURE.md](./PHASE2-STRUCTURE.md) | [ ] | 10 min | Layout complet |
+| 3 | [PHASE3-CONTENU.md](./PHASE3-CONTENU.md) | [ ] | 15 min | Textes finaux |
+| 4 | [PHASE4-DESIGN.md](./PHASE4-DESIGN.md) | [ ] | 20 min | Polish pro |
+| 5 | [PHASE5-DEPLOY.md](./PHASE5-DEPLOY.md) | [ ] | 10 min | URL live |
+
+**Total:** 60 minutes (mode hackathon)
+
+---
+
+## Quick Links
+
+- **Setup:** `npm create vite@latest meta-landing -- --template react`
+- **Dev:** `npm run dev` -> http://localhost:5173
+- **Build:** `npm run build`
+- **Deploy:** [Netlify](https://app.netlify.com)
+- **Submit:** [Google Form](https://forms.gle/rMxQrfCJPbJTegGTA)
+
+---
+
+## Checklist Rapide
+
+```
+PHASE 1 - SETUP
+[ ] npm run dev fonctionne
+[ ] Chakra UI installe
+
+PHASE 2 - STRUCTURE
+[ ] Header + Hero
+[ ] 3 sections
+[ ] Footer
+
+PHASE 3 - CONTENU
+[ ] Setup section complete
+[ ] Process section complete
+[ ] Strategy section complete
+
+PHASE 4 - DESIGN
+[ ] Responsive mobile
+[ ] Lighthouse > 90
+
+PHASE 5 - DEPLOY
+[ ] Build success
+[ ] URL live
+[ ] Soumis
+```
 
 ---
 
@@ -276,4 +327,164 @@ Pour un hackathon d'1 heure, mais on peut prendre notre temps pour apprendre:
 
 ---
 
-*Le feu crépite. Le tunnel nous attend. On y va?*
+*Le feu crepite. Le tunnel nous attend. On y va?*
+
+---
+
+## Annexe A: Techniques de Design (Extrait du guide)
+
+> Source: `landing-page-design-techniques.md`
+
+### Principes cles pour notre landing minimaliste
+
+#### 1. Hero Section (Above the Fold)
+- **Titre oriente benefice** - pas "Mon workflow AI" mais "Comment je build 10x plus vite"
+- **Sous-titre qui clarifie** - 1-2 phrases max
+- **CTA visible immediatement** - meme si optionnel pour nous
+- **Message clair en < 5 secondes**
+
+#### 2. Pattern en Z (pour pages visuelles)
+```
+[Logo]─────────────────[Nav]
+   ↘
+      [Hero Title]
+         ↘
+            [CTA]
+```
+L'oeil scanne naturellement en Z - placer les elements cles sur ce chemin.
+
+#### 3. Espace Blanc = Minimalisme
+- Les elements cles ressortent grace a l'espace autour
+- Pas d'encombrement
+- "Respiration visuelle"
+- **C'est notre style choisi** - on en abuse (positivement)
+
+#### 4. Hierarchie Typographique
+- **Titres tres grands** (tendance 2025-2026)
+- Contraste fort entre H1, H2, body
+- Police: Inter (clean, moderne, lisible)
+- Minimum 16px pour le body text
+
+#### 5. Mobile-First Checklist
+- [ ] Boutons minimum 44x44px
+- [ ] Texte minimum 16px
+- [ ] Pas de scroll horizontal
+- [ ] Touch targets espaces
+
+#### 6. Performance = Conversion
+- 1 seconde de delai = -7% conversions
+- Objectif: < 3 secondes de chargement
+- Lighthouse > 90
+
+#### 7. Micro-interactions Subtiles
+- Hover states sur les cards/links
+- Fade-in au scroll (framer-motion)
+- Transitions fluides (0.2s)
+- **Subtil, pas distrayant**
+
+### Checklist Design Minimaliste
+
+```
+STRUCTURE
+[ ] Hero: titre + sous-titre + (CTA optionnel)
+[ ] 3-5 points/benefices max
+[ ] Beaucoup d'espace blanc
+[ ] Un seul CTA principal (si applicable)
+
+TYPO
+[ ] Inter font chargee
+[ ] H1 tres grand (2xl-3xl)
+[ ] Hierarchie claire (H1 > H2 > body)
+[ ] Line-height 1.5 minimum
+
+COULEURS
+[ ] Palette limitee (2-3 couleurs)
+[ ] Fond blanc
+[ ] Texte quasi-noir (#0a0a0a)
+[ ] Accent bleu pour CTA (#2563eb)
+[ ] Gris pour texte secondaire
+
+MOBILE
+[ ] Boutons 44px minimum
+[ ] Texte 16px minimum
+[ ] Pas d'overflow horizontal
+[ ] Navigation simplifiee
+
+ANIMATIONS
+[ ] Hero fade-in au load
+[ ] Hover states sur cards
+[ ] Scroll smooth entre sections
+[ ] Respecter prefers-reduced-motion
+```
+
+---
+
+## Annexe B: Sous-etapes detaillees par phase
+
+### Phase 2 - Sous-etapes Structure
+
+```
+2.1 [ ] Creer dossier components/
+2.2 [ ] Creer Header.jsx avec nav links
+2.3 [ ] Creer Hero.jsx avec titre/sous-titre
+2.4 [ ] Creer Section.jsx (composant reutilisable)
+2.5 [ ] Creer dossier sections/
+2.6 [ ] Creer SetupSection.jsx
+2.7 [ ] Creer ProcessSection.jsx
+2.8 [ ] Creer StrategySection.jsx
+2.9 [ ] Creer Footer.jsx
+2.10 [ ] Assembler dans App.jsx
+2.11 [ ] Tester navigation scroll
+```
+
+### Phase 3 - Sous-etapes Contenu
+
+```
+3.1 [ ] Ecrire titre Hero (oriente benefice)
+3.2 [ ] Ecrire sous-titre Hero (1-2 phrases)
+3.3 [ ] Section Setup: decrire Cursor
+3.4 [ ] Section Setup: decrire Claude Code
+3.5 [ ] Section Setup: expliquer le combo
+3.6 [ ] Section Process: etape 1 (resultat vs etapes)
+3.7 [ ] Section Process: etape 2 (exemples visuels)
+3.8 [ ] Section Process: etape 3 (iteration)
+3.9 [ ] Section Process: exemple de prompt
+3.10 [ ] Section Strategy: 4 tips en cards
+3.11 [ ] Section Strategy: conclusion/callout
+3.12 [ ] Relire tout - ton coherent?
+```
+
+### Phase 4 - Sous-etapes Design
+
+```
+4.1 [ ] Ajouter Inter font dans index.html
+4.2 [ ] Configurer theme.js avec palette
+4.3 [ ] Header sticky + z-index
+4.4 [ ] Hero animation fade-in (framer-motion)
+4.5 [ ] Hover states sur nav links
+4.6 [ ] Hover states sur cards (translateY + shadow)
+4.7 [ ] Responsive: tailles de texte (base/md)
+4.8 [ ] Responsive: colonnes (base:1, md:2)
+4.9 [ ] Responsive: padding (base:4, md:8)
+4.10 [ ] Tester mobile (375px)
+4.11 [ ] Tester tablet (768px)
+4.12 [ ] Tester desktop (1280px)
+4.13 [ ] Lighthouse audit
+4.14 [ ] Fix issues Lighthouse
+```
+
+### Phase 5 - Sous-etapes Deploy
+
+```
+5.1 [ ] npm run build (fix erreurs si besoin)
+5.2 [ ] npm run preview (test local)
+5.3 [ ] git add + commit
+5.4 [ ] Creer repo GitHub
+5.5 [ ] git push
+5.6 [ ] Connecter Netlify a GitHub
+5.7 [ ] Configurer build (npm run build, dist)
+5.8 [ ] Attendre deploy
+5.9 [ ] Tester URL live
+5.10 [ ] Tester sur mobile reel
+5.11 [ ] Soumettre formulaire hackathon
+```
