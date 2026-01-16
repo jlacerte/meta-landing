@@ -9,13 +9,13 @@
 ```
 PROGRESSION TOTALE
 ==================
-[████████░░] 80%
+[██████████] 100% COMPLETE!
 
 Phase 1: Setup      [██████████] [X]
 Phase 2: Structure  [██████████] [X]
 Phase 3: Contenu    [██████████] [X]
 Phase 4: Design     [██████████] [X]
-Phase 5: Deploy     [          ] [ ] <- EN COURS
+Phase 5: Deploy     [██████████] [X] DONE!
 ```
 
 | Phase | Plan | Status | Temps | Objectif principal |
@@ -24,7 +24,7 @@ Phase 5: Deploy     [          ] [ ] <- EN COURS
 | 2 | [PHASE2-STRUCTURE.md](./PHASE2-STRUCTURE.md) | [X] | 10 min | Layout complet |
 | 3 | [PHASE3-CONTENU.md](./PHASE3-CONTENU.md) | [X] | 15 min | Textes finaux |
 | 4 | [PHASE4-DESIGN.md](./PHASE4-DESIGN.md) | [X] | 20 min | Polish pro |
-| 5 | [PHASE5-DEPLOY.md](./PHASE5-DEPLOY.md) | [ ] | 10 min | URL live |
+| 5 | [PHASE5-DEPLOY.md](./PHASE5-DEPLOY.md) | [X] | 10 min | URL live |
 
 **Total:** 60 minutes (mode hackathon)
 
@@ -63,9 +63,9 @@ PHASE 4 - DESIGN
 [X] Hero fade-in animation
 
 PHASE 5 - DEPLOY
-[ ] Build success
-[ ] URL live
-[ ] Soumis
+[X] Build success
+[X] URL live: https://wondrous-sprinkles-897f8d.netlify.app/
+[ ] Soumis (formulaire hackathon)
 ```
 
 ---
