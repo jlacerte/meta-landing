@@ -25,37 +25,37 @@ const Card = ({ title, children }) => (
 function StrategySection() {
   return (
     <Section
-      id="strategy"
-      title="Ma Strategie"
+      id="principes"
+      title="Mes Principes"
       subtitle="Ce que j'ai appris"
     >
       <VStack align="start" gap={6}>
         <SimpleGrid columns={{ base: 1, md: 2 }} gap={6} w="100%">
-          <Card title="Ship vite, polish apres">
-            Je fais marcher d'abord. Le pixel-perfect vient apres.
-            L'AI est meilleure pour ameliorer que pour deviner.
+          <Card title="Fonction avant forme">
+            Ca doit marcher d'abord. Le polish vient apres.
+            Un design simple qui fonctionne bat un design complexe qui impressionne.
           </Card>
 
-          <Card title="Contexte > Prompts">
-            Un bon contexte (stack, style, exemples) bat
-            des prompts elabores a chaque fois.
+          <Card title="Contraintes creatives">
+            Moins de couleurs, moins de fonts, moins d'elements.
+            Les limites forcent la creativite.
           </Card>
 
-          <Card title="Composants reutilisables">
-            Je demande des composants, pas des pages.
-            Plus facile a debugger, plus facile a reutiliser.
+          <Card title="Coherence partout">
+            Memes espacements, memes proportions, memes rythmes.
+            La repetition cree l'harmonie.
           </Card>
 
-          <Card title="Valider souvent">
-            Apres chaque changement: refresh, test visuel,
-            console check. Pas d'accumulation de bugs.
+          <Card title="Tester souvent">
+            Regarder sur mobile, sur grand ecran, de loin.
+            Chaque perspective revele quelque chose.
           </Card>
         </SimpleGrid>
 
         <Box bg="gray.50" p={6} borderRadius="md" w="100%">
           <Text fontWeight="medium" fontSize="lg">
             Le secret? Y'en a pas. C'est juste de la pratique
-            et des iterations. L'AI accelere, mais c'est toi qui guides.
+            et des iterations. Simplifier jusqu'a l'essentiel.
           </Text>
         </Box>
       </VStack>

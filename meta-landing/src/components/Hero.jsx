@@ -19,15 +19,15 @@ function Hero() {
             fontWeight="bold"
             lineHeight="1.2"
           >
-            Comment je build des frontends avec l'AI
+            Template Minimaliste
           </Heading>
           <Text
             fontSize={{ base: 'lg', md: 'xl' }}
             color="gray.600"
             maxW="600px"
           >
-            Mon workflow reel avec Cursor et Claude Code.
-            Pas de magie, juste une methode qui marche.
+            Moins c'est plus. Espace blanc, typographie bold,
+            zero distraction. Une approche qui fonctionne.
           </Text>
         </MotionVStack>
       </Container>

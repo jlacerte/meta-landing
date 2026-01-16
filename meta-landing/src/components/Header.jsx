@@ -32,9 +32,9 @@ function Header() {
           Meta Landing
         </Heading>
         <HStack gap={8} display={{ base: 'none', md: 'flex' }}>
-          <NavLink href="#setup">Setup</NavLink>
-          <NavLink href="#process">Process</NavLink>
-          <NavLink href="#strategy">Strategy</NavLink>
+          <NavLink href="#approche">Approche</NavLink>
+          <NavLink href="#methode">Methode</NavLink>
+          <NavLink href="#principes">Principes</NavLink>
         </HStack>
       </Flex>
     </Box>

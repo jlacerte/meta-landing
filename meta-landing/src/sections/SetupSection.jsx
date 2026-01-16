@@ -4,35 +4,35 @@ import Section from '../components/Section'
 function SetupSection() {
   return (
     <Section
-      id="setup"
-      title="Mon Setup"
-      subtitle="Deux outils, zero friction"
+      id="approche"
+      title="Mon Approche"
+      subtitle="Les fondamentaux du minimalisme"
     >
       <VStack align="start" gap={6}>
         <Box>
           <Text fontWeight="bold" fontSize="lg" mb={2}>
-            Cursor
+            Espace blanc genereux
           </Text>
           <Text color="gray.600">
-            Mon editeur principal. L'AI est integree directement -
-            je selectionne du code, je demande une modification, c'est fait.
+            L'espace n'est pas vide - il guide l'oeil.
+            Chaque element respire, rien n'est entasse.
           </Text>
         </Box>
 
         <Box>
           <Text fontWeight="bold" fontSize="lg" mb={2}>
-            Claude Code
+            Typographie forte
           </Text>
           <Text color="gray.600">
-            Pour les taches plus larges: architecture, refactoring,
-            creation de plusieurs fichiers d'un coup.
+            Des titres qui s'imposent, du texte qui se lit facilement.
+            Une hierarchie claire sans decoration superflue.
           </Text>
         </Box>
 
         <Box bg="gray.50" p={4} borderRadius="md" w="100%">
           <Text fontWeight="medium">
-            Pourquoi ce combo? Cursor pour le micro (edits rapides),
-            Claude Code pour le macro (features completes).
+            Le minimalisme n'est pas l'absence de style -
+            c'est le style reduit a l'essentiel.
           </Text>
         </Box>
       </VStack>

@@ -1,55 +1,49 @@
-import { Text, VStack, Box, Code } from '@chakra-ui/react'
+import { Text, VStack, Box } from '@chakra-ui/react'
 import Section from '../components/Section'
 
 function ProcessSection() {
   return (
     <Section
-      id="process"
-      title="Mon Process"
-      subtitle="Comment je parle a l'AI"
+      id="methode"
+      title="Ma Methode"
+      subtitle="Comment je construis"
     >
       <VStack align="start" gap={6}>
         <Box>
           <Text fontWeight="bold" fontSize="lg" mb={2}>
-            1. Je decris le resultat, pas les etapes
-          </Text>
-          <Text color="gray.600" mb={2}>
-            Mauvais: "Cree un div avec flexbox et padding 20px"
+            1. Vision claire du resultat
           </Text>
           <Text color="gray.600">
-            Bon: "Une card avec titre, description et bouton, style minimaliste"
+            Je commence par definir ce que je veux voir, pas comment le faire.
+            Une image mentale precise guide tout le reste.
           </Text>
         </Box>
 
         <Box>
           <Text fontWeight="bold" fontSize="lg" mb={2}>
-            2. Je donne des exemples visuels
+            2. References visuelles
           </Text>
           <Text color="gray.600">
-            "Inspire-toi du style de Linear ou Notion - clean,
-            beaucoup d'espace blanc, typo bold"
+            Je m'inspire des meilleurs: Linear, Notion, Stripe.
+            Leur point commun? Simplicite radicale, execution impeccable.
           </Text>
         </Box>
 
         <Box>
           <Text fontWeight="bold" fontSize="lg" mb={2}>
-            3. J'itere vite
+            3. Iteration rapide
           </Text>
           <Text color="gray.600">
-            Premier resultat pas parfait? Normal.
-            "Plus d'espace", "Moins de couleur", "Plus gros".
-            3-4 iterations et c'est bon.
+            Premier jet rarement parfait - et c'est correct.
+            Ajuster, affiner, simplifier. 3-4 passes et c'est la.
           </Text>
         </Box>
 
-        <Box bg="gray.900" color="gray.100" p={4} borderRadius="md" w="100%" fontSize="sm">
-          <Code bg="transparent" color="gray.100" display="block" whiteSpace="pre-wrap">
-{`// Mon prompt typique:
-"Cree une section hero minimaliste.
-Titre bold, sous-titre en gris, centre.
-Style: Linear, Notion, Stripe.
-Chakra UI, pas de CSS custom."`}
-          </Code>
+        <Box bg="gray.50" p={4} borderRadius="md" w="100%">
+          <Text fontWeight="medium">
+            La perfection n'est pas quand il n'y a plus rien a ajouter,
+            mais quand il n'y a plus rien a enlever.
+          </Text>
         </Box>
       </VStack>
     </Section>
